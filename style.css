@@ -1,0 +1,12 @@
+.red-triangle {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(244, 241, 241);
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+}
+.red-square {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(242, 236, 236);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}

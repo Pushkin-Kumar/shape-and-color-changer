@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change Shape and Color</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      id="container"
+      style="
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <div
+        id="circle"
+        style="
+          height: 150px;
+          width: 150px;
+          border-radius: 50%;
+          background-color: green;
+          box-sizing: border-box;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
+      ></div>
+      <div
+        id="change-color"
+        style="padding: 3px; text-align: center; margin-top: 20px"
+      >
+        <button>Change Color</button>
+      </div>
+      <div
+        id="change-shape"
+        style="padding: 3px; text-align: center; margin-top: 20px"
+      >
+        <button>Change Shape</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
